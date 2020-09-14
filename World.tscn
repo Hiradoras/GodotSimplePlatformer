@@ -1,0 +1,76 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Enemy/Lava.tscn" type="PackedScene" id=1]
+[ext_resource path="res://FinishStar.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://TileMaps/WorldTileMap.tscn" type="PackedScene" id=4]
+
+[node name="World" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 3 )]
+position = Vector2( 171.494, 353.041 )
+
+[node name="Lavas" type="Node" parent="."]
+
+[node name="Lava" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 416, 416 )
+
+[node name="Lava2" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 480, 416 )
+
+[node name="Lava3" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 672, 416 )
+
+[node name="Lava4" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 736, 416 )
+
+[node name="Lava5" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 928, 416 )
+
+[node name="Lava6" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 992, 416 )
+
+[node name="Lava7" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 672, 736 )
+
+[node name="Lava8" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 736, 736 )
+
+[node name="Lava9" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 416, 1120 )
+
+[node name="Lava10" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 480, 1120 )
+
+[node name="Lava11" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 544, 1120 )
+
+[node name="Lava12" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 864, 1120 )
+
+[node name="Lava13" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 928, 1120 )
+
+[node name="Lava14" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 1312, 1120 )
+
+[node name="Lava15" parent="Lavas" instance=ExtResource( 1 )]
+position = Vector2( 1376, 1120 )
+
+[node name="WorldTileMap" parent="." instance=ExtResource( 4 )]
+tile_data = PoolIntArray( 0, 0, 0, 20, 0, 0, 65536, 0, 0, 65556, 0, 0, 131072, 0, 0, 131092, 0, 0, 196608, 0, 0, 196620, 0, 0, 196621, 0, 0, 196624, 0, 0, 196625, 0, 0, 196628, 0, 0, 262144, 0, 0, 262152, 0, 0, 262153, 0, 0, 262156, 0, 0, 262157, 0, 0, 262160, 0, 0, 262161, 0, 0, 262164, 0, 0, 327680, 0, 0, 327688, 0, 0, 327689, 0, 0, 327692, 0, 0, 327693, 0, 0, 327696, 0, 0, 327697, 0, 0, 327700, 0, 0, 393216, 0, 0, 393221, 0, 0, 393224, 0, 0, 393225, 0, 0, 393228, 0, 0, 393229, 0, 0, 393232, 0, 0, 393233, 0, 0, 393236, 0, 0, 458752, 0, 0, 458753, 0, 0, 458754, 0, 0, 458755, 0, 0, 458756, 0, 0, 458757, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458761, 0, 0, 458762, 0, 0, 458763, 0, 0, 458764, 0, 0, 458765, 0, 0, 458766, 0, 0, 458767, 0, 0, 458768, 0, 0, 458769, 0, 0, 458772, 0, 0, 524288, 0, 0, 524308, 0, 0, 589824, 0, 0, 589843, 0, 0, 589844, 0, 0, 655360, 0, 0, 655367, 0, 0, 655368, 0, 0, 655369, 0, 0, 655372, 0, 0, 655378, 0, 0, 655379, 0, 0, 655380, 0, 0, 720896, 0, 0, 720899, 0, 0, 720900, 0, 0, 720901, 0, 0, 720902, 0, 0, 720903, 0, 0, 720904, 0, 0, 720905, 0, 0, 720908, 0, 0, 720909, 0, 0, 720910, 0, 0, 720911, 0, 0, 720912, 0, 0, 720913, 0, 0, 720914, 0, 0, 720915, 0, 0, 720916, 0, 0, 720918, 0, 0, 786432, 0, 0, 786435, 0, 0, 786436, 0, 0, 786437, 0, 0, 786438, 0, 0, 786439, 0, 0, 786440, 0, 0, 786441, 0, 0, 786442, 0, 0, 786443, 0, 0, 786444, 0, 0, 786445, 0, 0, 786446, 0, 0, 786447, 0, 0, 786448, 0, 0, 786449, 0, 0, 786450, 0, 0, 786451, 0, 0, 786452, 0, 0, 786454, 0, 0, 851968, 0, 0, 851990, 0, 0, 917504, 0, 0, 917526, 0, 0, 983040, 0, 0, 983055, 0, 0, 983056, 0, 0, 983062, 0, 0, 1048576, 0, 0, 1048581, 0, 0, 1048585, 0, 0, 1048586, 0, 0, 1048587, 0, 0, 1048588, 0, 0, 1048591, 0, 0, 1048592, 0, 0, 1048598, 0, 0, 1114112, 0, 0, 1114116, 0, 0, 1114117, 0, 0, 1114121, 0, 0, 1114122, 0, 0, 1114123, 0, 0, 1114124, 0, 0, 1114127, 0, 0, 1114128, 0, 0, 1114129, 0, 0, 1114130, 0, 0, 1114131, 0, 0, 1114134, 0, 0, 1179648, 0, 0, 1179651, 0, 0, 1179652, 0, 0, 1179653, 0, 0, 1179654, 0, 0, 1179655, 0, 0, 1179656, 0, 0, 1179657, 0, 0, 1179658, 0, 0, 1179659, 0, 0, 1179660, 0, 0, 1179661, 0, 0, 1179662, 0, 0, 1179663, 0, 0, 1179664, 0, 0, 1179665, 0, 0, 1179666, 0, 0, 1179667, 0, 0, 1179668, 0, 0, 1179669, 0, 0, 1179670, 0, 0, 1245184, 0, 0, 1245187, 0, 0, 1245188, 0, 0, 1245189, 0, 0, 1245190, 0, 0, 1245191, 0, 0, 1245192, 0, 0, 1245193, 0, 0, 1245194, 0, 0, 1245195, 0, 0, 1245196, 0, 0, 1245197, 0, 0, 1245198, 0, 0, 1245199, 0, 0, 1245200, 0, 0, 1245201, 0, 0, 1245202, 0, 0, 1245203, 0, 0, 1245204, 0, 0, 1245205, 0, 0, 1245206, 0, 0, 1310720, 0, 0, 1310721, 0, 0, 1310722, 0, 0, 1310723, 0, 0, 1310724, 0, 0, 1310725, 0, 0, 1310726, 0, 0, 1310727, 0, 0, 1310728, 0, 0, 1310729, 0, 0, 1310730, 0, 0, 1310731, 0, 0, 1310732, 0, 0, 1310733, 0, 0, 1310734, 0, 0, 1310735, 0, 0, 1310736, 0, 0, 1310737, 0, 0, 1310738, 0, 0, 1310739, 0, 0, 1310740, 0, 0, 1310741, 0, 0, 1310742, 0, 0 )
+
+[node name="FinishStar" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1360, 992 )
+world_scene = "res://World2.tscn"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 152.0
+margin_top = 264.0
+margin_right = 200.0
+margin_bottom = 304.0
+text = "LEVEL 1
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}

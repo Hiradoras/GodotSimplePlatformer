@@ -1,0 +1,126 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://TileMaps/WorldTileMap.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Enemy/Lava.tscn" type="PackedScene" id=3]
+[ext_resource path="res://FinishStar.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Jumper.tscn" type="PackedScene" id=5]
+
+[node name="World3" type="Node"]
+
+[node name="WorldTileMap" parent="." instance=ExtResource( 1 )]
+tile_data = PoolIntArray( 0, 0, 0, 33, 0, 0, 65536, 0, 0, 65569, 0, 0, 131072, 0, 0, 131078, 0, 0, 131105, 0, 0, 196608, 0, 0, 196641, 0, 0, 262144, 0, 0, 262177, 0, 0, 327680, 0, 0, 327683, 0, 0, 327690, 0, 0, 327712, 0, 0, 327713, 0, 0, 393216, 0, 0, 393235, 0, 0, 393249, 0, 0, 458752, 0, 0, 458774, 0, 0, 458778, 0, 0, 458785, 0, 0, 524288, 0, 0, 524292, 0, 0, 524301, 0, 0, 524317, 0, 0, 524321, 0, 0, 589824, 0, 0, 589857, 0, 0, 655360, 0, 0, 655391, 0, 0, 655393, 0, 0, 720896, 0, 0, 720929, 0, 0, 786432, 0, 0, 786448, 0, 0, 786465, 0, 0, 851968, 0, 0, 852001, 0, 0, 917504, 0, 0, 917505, 0, 0, 917506, 0, 0, 917507, 0, 0, 917508, 0, 0, 917509, 0, 0, 917510, 0, 0, 917511, 0, 0, 917512, 0, 0, 917513, 0, 0, 917514, 0, 0, 917515, 0, 0, 917516, 0, 0, 917517, 0, 0, 917518, 0, 0, 917519, 0, 0, 917520, 0, 0, 917521, 0, 0, 917522, 0, 0, 917523, 0, 0, 917524, 0, 0, 917525, 0, 0, 917526, 0, 0, 917527, 0, 0, 917528, 0, 0, 917529, 0, 0, 917530, 0, 0, 917531, 0, 0, 917532, 0, 0, 917533, 0, 0, 917534, 0, 0, 917535, 0, 0, 917536, 0, 0, 917537, 0, 0 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 272 )
+
+[node name="Lavas" type="Node" parent="."]
+
+[node name="Lava2" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 96, 864 )
+
+[node name="Lava3" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 160, 864 )
+
+[node name="Lava4" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 224, 864 )
+
+[node name="Lava5" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 288, 864 )
+
+[node name="Lava6" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 352, 864 )
+
+[node name="Lava7" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 416, 864 )
+
+[node name="Lava8" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 480, 864 )
+
+[node name="Lava9" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 544, 864 )
+
+[node name="Lava10" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 608, 864 )
+
+[node name="Lava11" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 672, 864 )
+
+[node name="Lava12" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 736, 864 )
+
+[node name="Lava13" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 800, 864 )
+
+[node name="Lava14" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 864, 864 )
+
+[node name="Lava15" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 928, 864 )
+
+[node name="Lava16" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 992, 864 )
+
+[node name="Lava17" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1056, 864 )
+
+[node name="Lava18" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1120, 864 )
+
+[node name="Lava19" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1184, 864 )
+
+[node name="Lava20" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1248, 864 )
+
+[node name="Lava21" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1312, 864 )
+
+[node name="Lava22" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1376, 864 )
+
+[node name="Lava23" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1440, 864 )
+
+[node name="Lava24" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1504, 864 )
+
+[node name="Lava25" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1568, 864 )
+
+[node name="Lava26" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1632, 864 )
+
+[node name="Lava27" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1696, 864 )
+
+[node name="Lava28" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1760, 864 )
+
+[node name="Lava29" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1824, 864 )
+
+[node name="Lava30" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1888, 864 )
+
+[node name="Lava31" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 1952, 864 )
+
+[node name="Lava32" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 2016, 864 )
+
+[node name="Lava33" parent="Lavas" instance=ExtResource( 3 )]
+position = Vector2( 2080, 864 )
+
+[node name="FinishStar" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2072, 280 )
+world_scene = "res://World.tscn"
+
+[node name="Jumper" parent="." instance=ExtResource( 5 )]
+position = Vector2( 288, 480 )
+
+[node name="Jumper2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1056, 736 )
+
+[node name="Jumper3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2016, 608 )
